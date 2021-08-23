@@ -1,0 +1,14 @@
+{% extends 'home.html' %} {% block body %}
+
+<br>
+<div id="btn2" class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Select Subject
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="/class-8/maths">Maths</a></li>
+  </ul>
+</div>
+  <div>{% block body1 %}
+    {% endblock body1 %}</div>
+{% endblock body %}

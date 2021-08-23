@@ -1,0 +1,28 @@
+{% extends 'base.html' %} {% block title %} Home {% endblock title %} {% block
+content %}
+<br />
+<div id="btn1" class="dropdown">
+  <button
+    class="btn btn-secondary dropdown-toggle"
+    type="button"
+    id="dropdownMenuButton1"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Select Class
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="/class-8">Class 8</a></li>
+  </ul>
+</div>
+<p id="quote">
+  “Education is the most powerful weapon which you can use to change the world”
+</p>
+<p id="quote2">– Nelson Mandela.</p>
+<p id="quote1">
+  “Live as if you were to die tomorrow. Learn as if you were to live forever.”
+</p>
+<p id="quote2">― Mahatma Gandhi</p>
+
+<div>{% block body %} {% endblock body %}</div>
+{% endblock content %}
